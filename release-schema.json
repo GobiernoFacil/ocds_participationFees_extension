@@ -1,0 +1,52 @@
+{
+  "definitions" : {
+    "Tender" : {
+      "properties" : {
+        "participationFees" : {
+          "title" : "Participation Fees",
+          "description" : "the information about the location and the cost of the bases for the tendering",
+          "$ref" : "#/definitions/participationFees"
+        }
+      }
+    },
+
+    "participationFees" : {
+      "title" : "Participation Fees",
+      "description" : "the information about the location and the cost of the bases for the tendering",
+      "type" : "object",
+      "properties" : {
+        "value" : {
+          "title" : "Participation fee",
+          "description" : "the amount to be covered by those interested in participate in the public tender",
+          "$ref" : "#/definitions/Value"
+        },
+
+        "address" : {
+          "title" : "address",
+          "description" : "the specific location where the bases will be put up for sale",
+          "$ref" : "#/definitions/Address"
+        },
+
+        "date" : {
+          "title" : "date",
+          "description" : "date and time of sale of the bases",
+          "type" : ["string", "null"],
+          "format" : "date-time"
+        }
+      }
+    },
+
+    "Value" : {
+      "properties" : {
+        "paymentMethod" : {
+          "title" : "Payment Method",
+          "description" : "The payment method for the participation fee",
+          "type" : ["string", "null"],
+          "codelist" : "payment-method.csv",
+          "openCodelist" : false,
+          "enum" : ["cash", "transfer"]
+        }
+      }
+    }
+  }
+}
