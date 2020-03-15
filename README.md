@@ -1,5 +1,5 @@
 # Participation Fees
-The information about the location and the cost of the bases for the tendering
+Extend the tender properties to addinformation about the location and the cost of the bases for the tendering.
 
 ## Example
 
