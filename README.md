@@ -1,6 +1,7 @@
 # Participation Fees
+The information about the location and the cost of the bases for the tendering
 
-## Example
+## Example
 
 ```
 tender {
