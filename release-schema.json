@@ -44,7 +44,7 @@
           "type" : ["string", "null"],
           "codelist" : "payment-method.csv",
           "openCodelist" : false,
-          "enum" : ["cash", "transfer"]
+          "enum" : ["cash", "transfer","deposit","check"]
         }
       }
     }
