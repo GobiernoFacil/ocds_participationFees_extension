@@ -1,3 +1,5 @@
 Code,Title,Description
 cash,Cash,Payment in place
-Transfer,Transfer,Wire transfer
+transfer,Transfer,Wire transfer
+deposit,Bank Deposit,Bank Deposit
+check,Check payment,Cashier's check or certificate
